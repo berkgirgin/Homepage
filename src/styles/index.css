@@ -88,6 +88,10 @@ body {
 
 .icon-parent {
   text-decoration: none;
+  transition-duration: 0.2s;
+}
+.icon-parent:hover {
+  scale: 1.1;
 }
 /* default icon size, just in case */
 .icon {
@@ -216,6 +220,10 @@ body {
   /* border: 2px black solid; */
   padding-bottom: 2rem;
   box-shadow: var(--default-box-shadow);
+  transition-duration: 0.5s;
+}
+.project-container:hover {
+  scale: 1.05;
 }
 
 .project-image-wrapper {
